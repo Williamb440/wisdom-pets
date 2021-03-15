@@ -1,108 +1,831 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
+  <meta charset="utf-8" />
+  <link rel="icon" type="image/png" href="assets/img/favicon.ico">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  
+  <title>WBC - WB services </title>
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <link href="assets/css/rubick.css" rel="stylesheet"/>
 
-  <title>Bare - Start Bootstrap Template</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <style>
-    div.bordered>div {
-      border:2px solid blue;
-      height:100px;
-    }
-    div.bordered {
-      margin-top:20px;
-    }
-    .red-border {
-      border:1px solid red;
-    }
-  </style>
-
+    <!--     Fonts and icons     -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700' rel='stylesheet' type='text/css'>
+    <link href="assets/css/fonts/pe-icon-7-stroke.css" rel="stylesheet">
+    <link href="assets/css/fonts/Rubik-Fonts.css" rel="stylesheet" />
 </head>
 
 <body>
-
-  <!-- Navigation -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+<div class="loading ">
+  <div class="loading-container">
+    <p>Just a sec...</p>
+    <img class="loader" src="assets/img/rubik.svg"/>
+  </div>
+</div>
+<nav class="navbar navbar-default navbar-transparent navbar-fixed-top navbar-burger" role="navigation">
+    <!-- if you want to keep the navbar hidden you can add this class to the navbar "navbar-burger"-->
+    
     <div class="container">
-      <a class="navbar-brand" href="#">Start Bootstrap</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home
-              <span class="sr-only">(current)</span>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
+    <div class="navbar-header">
+        <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+        </button>
+        <a href="" class="navbar-brand"><!-- /.navbar-collapse ajouter adresse site web ini-->
+          WBC
+        </a>
+    </div>
+
+    <div class="collapse navbar-collapse" >
+      <ul class="nav navbar-nav navbar-right navbar-uppercase">
+            <li class="social-links">
+                <a href="#"> 
+                    <i class="fa fa-facebook"></i>
+                </a>
+                <a href="#"> 
+                    <i class="fa fa-twitter"></i>
+                </a>
+                <a href="#"> 
+                    <i class="fa fa-instagram"></i>
+                </a>
+            </li>
+            <li>
+                <a href="" data-scroll="true" data-id="#whoWeAre"> 
+                    A propos de nous
+                </a>
+            </li>
+            <li>
+                <a href="" data-scroll="true" data-id="#workflow"> 
+                    Notre mission
+                </a>
+            </li>
+            <li>
+                <a href="" data-scroll="true" data-id="#projects">
+                    Projets
+                </a>
+            </li>
+            <li>
+                <a href="" data-scroll="true" data-id="#clients"> 
+                    Clients
+                </a>
+            </li>
+            <li>
+                <a href="" data-scroll="true" data-id="#team"> 
+                    Equipe
+                </a>
+            </li>
+             <li>
+                <a href="" data-scroll="true" data-id="#numbers"> 
+                    Chiffres
+                </a>
+            </li>
+            <li>
+                <a href="" data-scroll="true" data-id="#contact"> 
+                    Nous contacter
+                </a>
+            </li>
+       </ul>
+    </div><!-- /.navbar-collapse -->
+  </div>
+</nav>
+
+  
+<div class="wrapper">
+    <div class="section section-header">
+        <div class="parallax pattern-image"> 
+           <img src="assets/img/rubik_background.jpg"/>
+
+            <div class="container"> 
+                 <div class="content">
+                    <p><span> </span></p><!-- by William Benoitnavbar-collapse -->
+                    <h1>WBC Services</h1>
+                    <div class="separator-container">
+                      <div class="separator line-separator">♦</div>
+                    </div>
+                    <h5>Conseil au service de la performance des achats comme il devrait.</h5>
+                </div>               
+            </div>
+        </div>
+        <a href="" data-scroll="true" data-id="#whoWeAre" class="scroll-arrow hidden-xs hidden-sm">
+            <i class="fa fa-angle-down"></i>
+        </a>
+    </div>
+    
+    <div class="section section-we-are-1" id="whoWeAre">
+        <div class="text-area">
+            <div class="container">
+                <div class="row">
+                    <div class="title add-animation" id="animationTest">
+                        <h2>Notre équipe de consultant, va vous aider<br> à améliorer vos profits</h2>
+                        <div class="separator-container">
+                          <div class="separator line-separator">♦</div>
+                        </div>
+                        <p class="large">
+                            WBC est un groupe humain qui est le coeur et l'ame de notre compagnie, rien n'est plus satisfaisant d'aider nos clients à developper leurs entreprises. Nous avons fait le constat que l'audit achat manquait de transparence. Notre approche différente et transparente, supporté par la technologie digital crée des solutions sur mesure à l'aide des outils IA, Big data.
+                        </p>        
+                    </div>
+                </div>          
+            </div>
+        </div>
+        <div class="parallax pattern-image hidden-xs">
+            <img class="parallax-img" src="assets/img/rubik_background.jpg"/>
+
+        </div>       
+    </div>
+    
+
+    <div class="section section-we-do-2" id="workflow">
+        <div class="container">
+            <div class="row">
+               <div class="title add-animation">  
+                   <h2>Que faisons nous</h2>
+                   <div class="separator-container">
+                      <div class="separator line-separator">♦</div>
+                   </div>
+                   <p>Nous utilisons les solutions des cabinets d'audits traditionnel à votre service. Nous vous proposons de les intégrer dans votre entreprise. Si vous n'avez pas les ressources nécéssaires nous nous occupons de toute la prestation en récupérant des profits cachés via l'analyse de vos données, des tarifs, contrats... Nous repérons les incidents de paiement, les écarts liés à la mauvaise application des conditions contractuelles et tarifaires (remises, tarifs, escompte...) et bien plus que ça nous vous accompagnons dans vos développements et accroissement d'activité..</p>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-md-3 col-sm-6">
+                   <div class="card add-animation animation-1">
+                       <div class="icon">
+                           <i class="pe-7s-paint"></i>
+                       </div>
+                       <h3>Collecte des données</h3>
+                       <p>Nous faisons une revue de vos données.</p>
+                   </div>
+               </div>
+               <div class="col-md-3 col-sm-6">
+                   <div class="card add-animation animation-2">
+                       <div class="icon">
+                           <i class="pe-7s-scissors"></i>
+                       </div>
+                       <h3>Diagnostique et analyse</h3>
+                       <p>Nous trouvons une solution sur mesure.</p>
+                   </div>
+               </div>
+               <div class="col-md-3 col-sm-6">
+                   <div class="card add-animation animation-3">
+                       <div class="icon">
+                           <i class="pe-7s-plugin"></i>
+                       </div>
+                       <h3>Plan d'action</h3>
+                       <p>Nous prenons en charge le deroulement du plan d'action et nous transferons les compétences à l'aide des outils crées.</p>
+                   </div>
+               </div>
+               <div class="col-md-3 col-sm-6">
+                   <div class="card add-animation animation-4">
+
+                       <div class="icon">
+                           <i class="pe-7s-piggy"></i>
+                       </div>
+                       <h3>Logiciel</h3>
+                       <p>Nous développons des solutions digitales pour vous accompagner encore plus loin</p>
+                   </div>
+               </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="section section-we-made-3 section-with-hover" id="projects">
+        <div class="container">
+            <div class="text-area">
+                 <div class="title add-animation">  
+                   <h2>Nos Projets</h2>
+                   <div class="separator-container">
+                      <div class="separator line-separator">♦</div>
+                   </div>
+                   <p> Avec nos solutions sur mesure vous serez toujours au rendez vous
+                      !  </p>
+               </div> 
+            </div>
+
+            <div class="row">
+              <div class="col-lg-4 col-md-6">
+                <div class="project add-animation animation-1">
+                   <img src="assets/img/rubik_background2.jpg">
+                   <div class="over-area over-area-sm" onClick="" data-target="project_1">
+                      <div class="content">
+                        <h4>Carrefour</h4>
+                          <p>Nous avons accompagné Carrefour France, Carrefour Belgique et nous en sommes fier...                                  </p>
+                      </div>
+                       <button class="btn hidden-sm hidden-xs" onClick="rubik.showModal(this)" data-target="project_1">       
+                             More Details
+                      </button>
+                    </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <div class="project add-animation animation-2">
+                    <img src="assets/img/rubik_background2.jpg">
+                    <div class="over-area over-area-sm" onClick="" data-target="project_2">
+                      <div class="content">
+                          <h4>Intermarché</h4>
+                         <p>Nous avons accompagné ITM dans son nouveau challenge ...</p>
+                      </div>
+                      <button class="btn hidden-sm hidden-xs" onClick="rubik.showModal(this)" data-target="project_2">       
+                             More Details
+                      </button>
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                   <div class="project add-animation animation-3">
+                        <img src="assets/img/rubik_background2.jpg">
+                        <div class="over-area over-area-sm" onClick="" data-target="project_3">
+                          <div class="content">
+                              <h4>Cabinet d'audit</h4>
+                              <p>Nous avons développé des solutions digitales d'audit utilisées dans le monde</p>
+                          </div>
+                          <button class="btn hidden-sm hidden-xs" onClick="rubik.showModal(this)" data-target="project_3">       
+                                 More Details
+                          </button>
+                        </div>
+                    </div>
+                </div>              
+                               
+                
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <div class="section section-clients-2" id="clients">
+        <div class="container">
+           <div class="title add-animation">  
+               <h2>CLient</h2>
+               <div class="separator-container">
+                  <div class="separator line-separator">♦</div>
+               </div>
+
+         </div> 
+         <div class="tab-content quotes add-animation animation-2">  
+            <div class="tab-pane active" id="canon">
+               <p class="large">Nous avions un goulot d'étranglement qui a été réglé grace à leurs services!</p>
+            </div>          
+            <div class="tab-pane" id="samsung">
+                   <p class="large">
+                       .
+                   </p>
+           </div>
+            <div class="tab-pane" id="sony">
+                  <p class="large">
+                  . </p>
+            </div>
+            <div class="tab-pane" id="intel">
+                  <p class="large"></p>
+            </div>
+          </div>
+          <ul class="nav nav-text list-logos add-animation animation-2" role="tablist">  
+            <li class="active">
+              <a href="../#canon" role="tab" data-toggle="tab">
+                <h3 class="big-text">Tim Jones</h3>
+              </a>
+            </li>
+            <li>
+              <a href="../#samsung" role="tab" data-toggle="tab">
+                <h3 class="big-text">Jack Spring</h3>
+              </a>
+            </li>
+            <li>
+              <a href="../#sony" role="tab" data-toggle="tab">
+                <h3 class="big-text">Helen Bolton</h3>
+              </a>
+            </li>
+             <li>
+              <a href="../#intel" role="tab" data-toggle="tab">
+                <h3 class="big-text">Daniel Claus</h3>
+              </a>
+            </li>
+          </ul>
+                         
+        </div>
+      </div>
+    
+    <div class="section section-team-2" id="team">      
+       <div class="container">        
+         <div class="text-area">
+             <div class="title add-animation">  
+               <h2>Notre équipe</h2>
+               <div class="separator-container">
+                  <div class="separator line-separator">♦</div>
+               </div>
+               <p>
+                   Notre équipe est le moteur de nos ambitions elle est consituée de collaborateurs en France et à l'étranger.
+               </p>
+           </div>
+        </div>
+        <div class="team">
+          <div class="row">
+             <div class="col-md-3 col-sm-6">
+              <div class="member add-animation animation-1">
+                  <img class="img-circle" src="assets/img/faces/face_1.jpg"/>
+                  <div class="description">
+                    <h3 class="big-text">William</h3>
+                    <p class="small-text">Fondateur</p>
+                  </div>
+                  <div class="social-buttons hidden-xs">
+                    <button href="#" class="btn btn-social btn-simple"><i class="fa fa-facebook-square"></i></button>
+                    <button href="#" class="btn btn-social btn-simple"><i class="fa fa-twitter"></i></button>
+                    <button href="#" class="btn btn-social btn-simple"><i class="fa fa-linkedin"></i></button>
+                  </div>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+               <div class="member add-animation animation-2">
+                  <img class="img-circle" src="assets/img/faces/face_1.jpg"/>
+                  <div class="description">
+                    <h3 class="big-text">Vincent</h3>
+                    <p class="small-text">Consultant Senior</p>
+                 </div>
+                 <div class="social-buttons hidden-xs">
+                    <button href="#" class="btn btn-social btn-simple"><i class="fa fa-instagram"></i></button>
+                    <button href="#" class="btn btn-social btn-simple"><i class="fa fa-twitter"></i></button>
+                    <button href="#" class="btn btn-social btn-simple"><i class="fa fa-flickr"></i></button>
+                 </div>
+              </div>
+            </div>
+             <div class="col-md-3 col-sm-6">
+               <div class="member add-animation animation-3">
+                  <img class="img-circle" src="assets/img/faces/face_1.jpg"/>
+                  <div class="description">
+                    <h3 class="big-text"></h3>
+                    <p class="small-text"></p>
+                 </div>
+                 <div class="social-buttons hidden-xs">
+                    <button href="#" class="btn btn-social btn-simple"><i class="fa fa-linkedin"></i></button>
+                    <button href="#" class="btn btn-social btn-simple"><i class="fa fa-instagram"></i></button>
+                    <button href="#" class="btn btn-social btn-simple"><i class="fa fa-pinterest"></i></button>
+                 </div>
+              </div>
+            </div>
+
+             <div class="col-md-3 col-sm-6">
+               <div class="member add-animation animation-4">
+                  <img class="img-circle" src="assets/img/faces/face_1.jpg"/>
+                  <div class="description">
+                    <h3 class="big-text"></h3>
+                    <p class="small-text"></p>
+                 </div>
+                 <div class="social-buttons hidden-xs">
+                    <button href="#" class="btn btn-social btn-simple"><i class="fa fa-facebook-square"></i></button>
+                    <button href="#" class="btn btn-social btn-simple"><i class="fa fa-soundcloud"></i></button>
+                    <button href="#" class="btn btn-social btn-simple"><i class="fa fa-tumblr-square"></i></button>
+                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </nav>
+    
+    <div class="section section-numbers-2" id="numbers">
+        <div class="parallax filter filter-color-1">
+            <img src="assets/img/rubik_background.jpg">
+        </div>
+        <div class="container">
+            <div class="text-area">
+                <div class="title">
+                    <h2>Les chiffres parlent</h2>
+                    <div class="separator-container">
+                      <div class="separator line-separator">♦</div>
+                    </div>
+                    <p></p>
+                </div>
+            </div>
+        
+            <div class="clearfix"></div>
+            <div class="row">
+               <div class="col-md-4 col-sm-4">
+                   <div class="card card-plain">
+                       <h3>Clients</h3>
+                       <h5>Grands groupe et pme</h5>
+                       <div class="number">
+                        5.382
+                       </div>
+                   </div>
+               </div>
+               <div class="col-md-4 col-sm-4">
+                   <div class="card card-plain">
+                       <h3>Projets</h3>
+                       <h5>Stratégie et Marketing</h5>
+                       <div class="number" >
+                        26.832
+                       </div>
+                   </div>
+               </div>
+               <div class="col-md-4 col-sm-4">
+                   <div class="card card-plain">
+                       <h3>Cities</h3>
+                       <h5>Ou nous Trouver</h5>
+                       <div class="number" >
+                           278
+                       </div>
+                   </div>
+               </div> 
+            </div>          
+        </div>
+    </div>
 
-  <!-- Page Content -->
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h1 class="mt-5" style="color: #cdae51;">Wisdom Pet Medicine</b></h1>
-        <h2 style="font-size:16pt;">We treat your pets like we treat our own.</h2>
-        <img style="width:120%" src="./images/kevin-bhagat-zNRITe8NPqY-unsplash.jpg">
-        <p style="padding-top:30px"><a href="#" style="color:#777777">Visit Us</a></p>
-        <p style="text-align:justify; max-width:600px; margin:auto; padding-bottom:30px;">Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the diagnosis and treatment of health conditions in companion animals, including dogs, cats, birds, reptiles, rodents, and fish. We apply the latest healthcare technology, along with the wisdom garnered in the centuries old tradition of veterinary medicine, to find the safest and most effective treatments and cures, while maintaining a caring relationship with our patients and their guardians.</p>
-          
-        </ul>
+    <div class="section section-contact-1" id="contact">
+        <div class="container">  
+            <div class="text-area">
+                 <div class="title add-animation">  
+                   <h2>Contact Us</h2>
+                   <div class="separator-container">
+                      <div class="separator line-separator">♦</div>
+                   </div>
+                   <p>Trouver nous dans le sud de Paris</p>
+            </div>
+                  
+            <div class="contact-form">
+                <div class="row">
+                  <div class="col-md-3 col-sm-3 right-border hidden-xs">
+                    <div class="address add-animation add-animation-1">
+                        <h4>Where to meet ?</h4>
+                        <p class="text-gray">
+                            92120 Montrouge<br>
+                            Place Jules Ferry, 48<br>
+                            France
+                        </p>
+                        <h4>Telephone</h4>
+                        <p class="text-gray">0456 / 71 21 39</p>
+                        <h4>By the old way</h4>
+                        <a href="mailto:benoitwilliam440@gmail.com">
+                        <p class="text-gray">benoitwilliam440@gmail.com</p>
+                        </a>                     
+                    </div>
+                  </div>
+                  
+                  <div class="col-md-8 col-md-offset-1 col-sm-7 col-sm-offset-2">
+                    <div class="form-group add-animation animation-1">
+                      <input type="text" value="" placeholder="Your Full Name" class="form-control">
+                    </div>
+                    <div class="form-group add-animation animation-2">
+                      <input type="text" value="" placeholder="Your Email" class="form-control">
+                    </div>
+                    <div class="form-group add-animation animation-3">
+                         <textarea class="form-control" placeholder="Here you can write some nice text" rows="8"></textarea>
+                    </div>
+                   
+                    <button class="btn btn-lg btn-black pull-right">
+                        SEND <i class="fa fa-paper-plane"></i>
+                    </button>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    </div>
+  </div>
+</div>
+
+    <footer class="footer footer-big footer-color-black" id="footerTrigger">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 col-sm-3">
+                <div class="info add-animation-stopped animation-1">
+                    <h5 class="title">Société</h5>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    Accueil
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                   Offre
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Decouvrer nos projets
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Our Portfolio
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Qui sommes nous ?
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                </div>
+
+                <div class="col-md-3 col-md-offset-1 col-sm-3">
+                <div class="info add-animation-stopped animation-2">
+                    <h5 class="title"> Aide</h5>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                   Nous contacter
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                   Comment ca marche
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Termes &amp; Conditions
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    Politique d'entreprise
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                   Retour sur investissement
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                </div>
+                
+                <div class="col-md-3 col-sm-3">
+                <div  class="info add-animation-stopped animation-3">
+                    <h5 class="title">Dernières actualités</h5>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                   <i class="fa fa-twitter"></i> <b>Finir le travail</b>
+                                   le tout dans un calendrier maitrisé....
+                                   <hr class="hr-small">
+                                </a>
+                            </li>
+                            <li>
+                                  <a href="#">
+                                   <i class="fa fa-twitter"></i>
+                                    <b> </b>!<!--    ajout de texte entre Fonts and icons     -->
+                                </a>
+                            </li>
+                          
+                        </ul>
+                    </nav>
+                </div>
+                </div>
+
+                <div class="col-md-2 col-md-offset-1 col-sm-3">
+                <div  class="info add-animation-stopped animation-4"> 
+                    <h5 class="title">Suivez nous</h5>
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="#" class="btn btn-social btn-facebook btn-simple">
+                                    <i class="fa fa-facebook-square"></i> Facebook
+                                </a>
+                            </li>
+                             <li>
+                                 <a href="#" class="btn btn-social btn-dribbble btn-simple">
+                                    <i class="fa fa-dribbble"></i> Dribbble
+                                </a>
+                            </li>
+                            <li>
+                               <a href="#" class="btn btn-social btn-twitter btn-simple">
+                                    <i class="fa fa-twitter"></i> Twitter
+                                </a>
+                            </li>
+                            <li>
+                                 <a href="#" class="btn btn-social btn-reddit btn-simple">
+                                    <i class="fa fa-google-plus-square"></i> Google+
+                                </a>
+                            </li>
+                           
+                        </ul>
+                    </nav>
+                </div>
+                </div>
+            </div>
+            <hr>
+            <div class="copyright">
+                © 2021 William Benoit, made with love
+            </div>
+        </div>
+    </footer>
+</div> <!-- end wrapper -->
+<div class="project-content" id="project_1">
+  <span class="icon-close"><i class="pe-7s-close-circle"></i></span>
+  <div>
+    <div class="project-details">
+      <div class="container">
+        <div class="project-title">
+          <h2>Carrefour</h2>
+          <div class="separator-container">
+              <div class="separator line-separator">♦</div>
+            </div>
+            <p>Nous avons accompagné Carrefour France, Carrefour Belgique et nous en sommes fier...</p>
+        </div>
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <div class="article">
+              <div class="project-image">
+                 <img src="assets/img/rubik_background2.jpg"/>
+              </div>
+              <div class="project-text">
+                  <h3><span>.</span></h3>
+                  <p>.</p>
+                  <p>T.</p>
+                  <p><span>.</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-
-  <div class="container challenge" style="padding-bottom:30px;">
-    <h3 style="font-size:16pt;padding-top:30px;text-align:center;">REVIEWS</h3>
-    <div class="row" style="background-color:white;">
-      <div class="col-sm-6 col-lg-3" style="border:5px solid #DFDFDF;background-color:white;padding:10px;">
-        <h6><b>Thanks for helping our German Shorthair</b></h6>
-        <p>During the summer, my German Shorthair Pointer, Tonto, began to have severe redness and itching on his belly and feet. Through diagnostic testing, we learned that Tonto is severely allergic to over a dozen kinds of grass pollens.</p>
-        <p>We’ve now been doing allergy injections for several months, and his itching and redness have nearly gone away. I’m very thankful to the veterinarians and staff at Wisdom for the excellent care Tonto received, and for nipping his allergies in the bud, so to speak.</p>
-      </div>
-      <div class="col-sm-6 col-lg-3" style="border:5px solid #DFDFDF;background-color:white;padding:10px;">
-        <h6><b>Thanks to you, our diabetic kitty is better</b></h6>
-        <p>When Samantha, our Siamese cat, began sleeping all the time and urinating excessively, we brought her to see the specialists at Wisdom. After running a blood test, Dr. Winthrop confirmed what we all feared – Samantha was showing signs of diabetes.</p>
-        <p>The doctor put us on a daily routine to give Samantha insulin injections, and showed us how to administer the shots. We weren’t sure we could do it on our own, but the gang at Wisdom helped us through every step, and were always very supportive and encouraging. Now, two years later, Samantha is still free from any complications of diabetes, and her blood sugar regularly tests normal. Thank you, Wisdom Pet Medicine!</p>
-      </div>
-      <div class="col-sm-6 col-lg-3" style="border:5px solid #DFDFDF;background-color:white;padding:10px;">
-        <h6><b>How a dog antibiotic cured our fish</b></h6>
-        <p>Wisdom Pet Medicine is the only clinic around that will even book pet fish for appointments. When our 13-year old goldfish, McAllister, turned from silvery white to an angry red, we called around, urgently trying to find a veterinarian who could help. Wisdom not only got us in the same day, but also was able to diagnose McAllister as having a severe case of septicemia.</p>
-        <p>In order to kill the harmful bacteria in his blood, we had to use a dog antibiotic in his tank every day for a week, and in the end, McAllister was good as new. I still smile upon remembering Dr. Chase pulling out an old vet school textbook to calculate the correct antibiotic dose for a fish!</p>
-      </div>
-      <div class="col-sm-6 col-lg-3" style="border:5px solid #DFDFDF;background-color:white;padding:10px;">
-        <h6><b>Caring for Roxie, the grape-loving dog</b></h6>
-        <p>The staff at Wisdom worked tirelessly to determine why our three-year old Labrador Retriever, Roxie, started going into sudden kidney failure. They stabilized her and provided fluids until her kidneys were again functioning normal, but it was still a mystery as to what caused her health to decline so quickly.</p>
-        <p>The vet noted our address on Roxie’s chart, and asked if we lived on one of the orchards in the vicinity, and if Roxie had a habit of eating grapes off the vine. Our answer was “of course – she’s a Labrador.” That day we learned just how toxic grapes and raisins are to pets, and Roxie is no longer allowed to roam unattended in the orchard.</p>
+</div>
+<div class="project-content" id="project_2">
+  <span class="icon-close"><i class="pe-7s-close-circle"></i></span>
+  <div>
+    <div class="project-details">
+      <div class="container">
+        <div class="project-title">
+          <h2>Intermarché</h2>
+          <div class="separator-container">
+              <div class="separator line-separator">♦</div>
+            </div>
+            <p>Nous avons accompagné ITM dans son nouveau challenge ...</p>
+        </div>
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <div class="article">
+              <div class="project-image">
+                 <img src="assets/img/rubik_background2.jpg"/>
+              </div>
+              <div class="project-text">
+                  <h3><span>.</span></h3>
+                  <p>.</p>
+                  <p>.</p>
+                  <p><span>.</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-
-  <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.slim.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
+</div>
+<div class="project-content" id="project_3">
+  <span class="icon-close"><i class="pe-7s-close-circle"></i></span>
+  <div>
+    <div class="project-details">
+      <div class="container">
+        <div class="project-title">
+          <h2>Cabinet d'audit</h2>
+          <div class="separator-container">
+              <div class="separator line-separator">♦</div>
+            </div>
+            <p>Nous avons développé des solutions digitales d'audit utilisées dans le monde/p>
+        </div>
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <div class="article">
+              <div class="project-image">
+                 <img src="assets/img/rubik_background2.jpg"/>
+              </div>
+              <div class="project-text">
+                  <h3><span>.</span></h3>
+                  <p></p>
+                  <p><span>.</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="project-content" id="project_4">
+  <span class="icon-close"><i class="pe-7s-close-circle"></i></span>
+  <div>
+    <div class="project-details">
+      <div class="container">
+        <div class="project-title">
+          <h2>Watch Anish</h2>
+          <div class="separator-container">
+              <div class="separator line-separator">♦</div>
+            </div>
+            <p>We've been working with Watch Anish since the beginning. We are proud that they enjoy our results</p>
+        </div>
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <div class="article">
+              <div class="project-image">
+                 <img src="assets/img/rubik_background2.jpg"/>
+              </div>
+              <div class="project-text">
+                  <h3>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce<span>.</span></h3>
+                  <p>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi beetroot carrot watercress.</p>
+                  <p>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi beetroot carrot watercress.</p>
+                  <p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.Celery potato scallion desert raisin horseradish spinach carrot soko<span>.</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="project-content" id="project_5">
+  <span class="icon-close"><i class="pe-7s-close-circle"></i></span>
+  <div>
+    <div class="project-details">
+      <div class="container">
+        <div class="project-title">
+          <h2>Watch Anish</h2>
+          <div class="separator-container">
+              <div class="separator line-separator">♦</div>
+            </div>
+            <p>We've been working with Watch Anish since the beginning. We are proud that they enjoy our results</p>
+        </div>
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <div class="article">
+              <div class="project-image">
+                 <img src="assets/img/rubik_background2.jpg"/>
+              </div>
+              <div class="project-text">
+                  <h3>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce<span>.</span></h3>
+                  <p>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi beetroot carrot watercress.</p>
+                  <p>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi beetroot carrot watercress.</p>
+                  <p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.Celery potato scallion desert raisin horseradish spinach carrot soko<span>.</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="project-content" id="project_6">
+  <span class="icon-close"><i class="pe-7s-close-circle"></i></span>
+  <div>
+    <div class="project-details">
+      <div class="container">
+        <div class="project-title">
+          <h2>Watch Anish</h2>
+          <div class="separator-container">
+              <div class="separator line-separator">♦</div>
+            </div>
+            <p>We've been working with Watch Anish since the beginning. We are proud that they enjoy our results</p>
+        </div>
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1">
+            <div class="article">
+              <div class="project-image">
+                 <img src="assets/img/rubik_background2.jpg"/>
+              </div>
+              <div class="project-text">
+                  <h3>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce<span>.</span></h3>
+                  <p>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi beetroot carrot watercress.</p>
+                  <p>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko. Lotus root water spinach fennel kombu maize bamboo shoot green bean swiss chard seakale pumpkin onion chickpea gram corn pea. Brussels sprout coriander water chestnut gourd swiss chard wakame kohlrabi beetroot carrot watercress.</p>
+                  <p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.Celery potato scallion desert raisin horseradish spinach carrot soko<span>.</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
+  <!--   core js files    -->
+  <script src="assets/js/jquery-1.11.2.min.js" type="text/javascript"></script>
+  <script src="assets/js/bootstrap.js" type="text/javascript"></script>
+  
+  <!--   file for adding vertical points where we activate the elements animation   -->
+  <script type="text/javascript" src="assets/js/jquery.waypoints.min.js"></script>
 
+  <!--  js library for devices recognition -->
+  <script type="text/javascript" src="assets/js/modernizr.js"></script>
+
+  <!--  script for google maps   -->
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    
+  <!--   file where we handle all the script from the Rubik page   -->
+  <script type="text/javascript" src="assets/js/rubick.js"></script>
+  
 </html>
